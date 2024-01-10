@@ -15,8 +15,6 @@ const evaluateHand = (player, communityCards) => {
     player.handRank = 9; // Straight Flush
   } else if (hasFourOfAKind(ranksCount)) {
     player.handRank = 8;
-  } else if (hasFourOfAKind(ranksCount)) {
-    player.handRank = 8; // Four of a Kind
   } else if (hasFullHouse(ranksCount)) {
     player.handRank = 7; // Full House
   } else if (hasFlush(suitsCount)) {
