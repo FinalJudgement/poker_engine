@@ -142,7 +142,7 @@ class Poker {
     return potentialWinners[0];
   }
 
-  resolveTieBreaker(players) {
+  resolveTiebreaker(players) {
     // Assume that players have the same hand rank (e.g., Two Pair)
     const highCards = players.map((player) => player.getHighCard());
 
