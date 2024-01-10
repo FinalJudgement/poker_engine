@@ -1,0 +1,13 @@
+{
+  "name": "your-poker-game",
+  "version": "1.0.0",
+  "description": "A simple Texas Hold'em poker game",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "game": "node play.js"
+  },
+  "author": "Carlos",
+  "license": "MIT",
+  "dependencies": {}
+}
